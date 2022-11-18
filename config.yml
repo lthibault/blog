@@ -1,0 +1,19 @@
+baseURL: https://lthibault.github.io
+languageCode: en-us
+title: lthibau.lt
+theme: "PaperMod"
+params:
+    homeInfoParams:
+        Title: Hi there! 👋
+        Content: |-
+          I'm Louis Thibault, a CogSci Ph.D. turned software developer, and this is my
+          blog.  There's no official topic, but my thoughts tend to cluster around p2p
+          networks and mathematics.
+          
+          I'm also the lead developer of [Wetware](https://github.com/wetware/ww), so I write about that too.
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/lthibault"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/lthibault/"
