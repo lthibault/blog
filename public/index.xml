@@ -13,7 +13,7 @@
       <pubDate>Fri, 18 Nov 2022 09:09:10 -0500</pubDate>
       
       <guid>https://lthibault.github.io/posts/random-cidr-iter/</guid>
-      <description>I recently encountered a problem that seemed trivial on the surface, and turned out to be just challenging enough to warrant a blog post: given a subnet iterate through its addresses in pseudorandom order.
+      <description>I recently encountered a problem that seemed trivial on the surface, and turned out to be challenging enough to warrant a blog post: given a subnet iterate through its addresses in pseudorandom order.
 Naive Approach For small subnets like 10.8.1.0/24, the naive implementation works well. We enumerate each address and append it to a list, shuffle the list, and then range over the list. The first step is the only one I had to stop and think about, but it ended up being quite straightforward.</description>
     </item>
     

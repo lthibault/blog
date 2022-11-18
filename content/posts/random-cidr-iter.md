@@ -4,7 +4,7 @@ date: 2022-11-18T09:09:10-05:00
 draft: false
 ---
 
-I recently encountered a problem that seemed trivial on the surface, and turned out to be just challenging enough to warrant a blog post:  given a subnet iterate through its addresses in pseudorandom order.
+I recently encountered a problem that seemed trivial on the surface, and turned out to be challenging enough to warrant a blog post:  given a subnet iterate through its addresses in pseudorandom order.
 
 ### Naive Approach
 
