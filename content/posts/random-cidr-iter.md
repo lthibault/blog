@@ -156,7 +156,7 @@ In fact, at 41.16 ns for 16777216 IPs, it seems _too_ fast.  That's 2.45e-06 *na
 
 ### Conclusion:  Why Bother?
 
-Judging from the lack of relevant libraries on GitHub, it would seems the need for randomized IP enumeration is somewhat niche.  As such, a few words on motivation seem like an appropriate way to conclude my first blog post.
+Judging from the lack of relevant libraries on GitHub, it seems the need for randomized IP enumeration is somewhat niche.  As such, a few words on motivation seem like an appropriate way to conclude my first blog post.
 
 [Wetware](https://github.com/wetware/ww) is a minimal cluster environment that makes it easy to write distributed systems and applications.  Wetware is distributed as a single static binary that runs a server process on each host in your cluster.  The server is responsible for joining the cluster, after which it can share resources with other hosts, and export cluster-wide services to applications.
 
