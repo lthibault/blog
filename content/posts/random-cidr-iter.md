@@ -1,5 +1,5 @@
 ---
-title: "Efficient random enumeration of IPs in a subnet"
+title: "Randomized enumeration of IP addresses in a subnet"
 date: 2022-11-18T09:09:10-05:00
 draft: false
 ---

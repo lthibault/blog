@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Nov 2022 09:09:10 -0500</lastBuildDate><atom:link href="https://lthibault.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Efficient random enumeration of IPs in a subnet</title>
+      <title>Randomized enumeration of IP addresses in a subnet</title>
       <link>https://lthibault.github.io/posts/random-cidr-iter/</link>
       <pubDate>Fri, 18 Nov 2022 09:09:10 -0500</pubDate>
       
