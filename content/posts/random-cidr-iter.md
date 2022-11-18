@@ -52,7 +52,7 @@ The third property we shall call the **complementary property**.  For any A, B a
 
 This brings us to the fourth and final notable property:  the **uniqueness property**.  For any A, B, X and Y, if A ⊕ B = C and X ⊕ Y = C, then A = X and B = Y, or A = Y and B = X.  In other words, XOR-ing a pair of 8-bit integers produces an 8-bit integer that is unique to that pair.
 
->**Proof** (by contradiction).  Let A ⊕ B = C.  By complementary property, A ⊕ C = B.  Now, suppose there is an X ≠ B such that A ⊕ X = C.  Then, A ⊕ C = X, and we arrive at a contradiction. ⃞
+>**Proof** (by contradiction).  Let A ⊕ B = C.  By the complementary property, A ⊕ C = B.  Now, suppose there is an X ≠ B such that A ⊕ X = C.  Then, A ⊕ C = X, and we arrive at a contradiction. ⃞
 
 ### XOR Bit-Mask Approach
 
