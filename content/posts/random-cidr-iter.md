@@ -31,7 +31,7 @@ Fortunately, there is a way to iterate through arbitrarily-large subnets with co
 
 ### A Brief Aside:  XOR
 
-I love XOR; it's my favorite logical operand.  Even after all these years, it strikes me as quirky when compared to the more pedestrian AND, OR and NOT, yet it seems to turn up *everywhere*, and for good reason!  XOR has algebraic properties that make it arguably *less* quirky and more well-behaved than most of it siblings, and incredibly useful.
+I love XOR; it's my favorite boolean operator.  Even after all these years, it strikes me as quirky when compared to the more pedestrian AND, OR and NOT, yet it seems to turn up *everywhere*, and for good reason!  XOR has algebraic properties that make it arguably *less* quirky and more well-behaved than most of it siblings, and incredibly useful.
 
 It seems unnecessary to introduce a definition of XOR, given its familiarity to most developers, but it can be helpful to check its more interesting properties against a truth-table.  In essence, A ⊕ B is true if **either** A or B is true, but not both.
 
