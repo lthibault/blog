@@ -170,4 +170,6 @@ To make matters worse, host failures and horizontal scaling tend to occur when t
 
 Instead, Wetware hosts iterate through the subnet in pseudorandom order, ensuring that bootstrap packets are spread evenly across the cluster.  Even under critical load, the busiest servers can generally handle an additional UDP packet or two.
 
-There's actually quite a bit more to Wetware's bootstrap procedure, but that's a topic for another post.  I think that's enough for a first post.  Hello, world!
+There's actually quite a bit more to Wetware's bootstrap procedure, but that's a topic for another post.  I think this is enough for a first post.
+
+Hello, world!
