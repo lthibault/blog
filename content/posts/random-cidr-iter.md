@@ -166,8 +166,8 @@ One such challenge is "bootstrapping".  When a Wetware server first starts, it m
 
 But here's the problem:  there's a nasty tendency for hosts to join a cluster in _groups_.  This is because generally speaking, host reboots aren't as independent as we like to think.  Moreover, we like clusters in large part for their horizontal scalability, _i.e._ the ability to quickly add more hardware to meet peak demand.  So we also tend to add hardware in batches.
 
-To make matters worse, host failures and horizontal scaling tend to occur when the system is under load.  If we're not careful, the addition of hardware intended to alleviate the load can instead cause cascading failures.  The risk is especially high if each server in a batch of freshly-added hosts were to send their bootstrap UDP packets to the same hosts, in the same order, in unison.
+To make matters worse, host failures and horizontal scaling tend to occur when the system is under load.  If we're not careful, the remedy can quickly become worse than the disease.  The batch of hosts we spun up to alleviate the load can end up flooding an overburdened peer with bootstrap packets, tipping it over the edge.  And when that peer subsequently reboots, it now contributes to the problem to which it just succumbed.  The risk of cascading failures is especially high when each host iterates through subnet IPs in the same order, as the likelihood of concentrated fire increases.
 
-To prevent this kind of failure, Wetware servers iterate through the subnet in pseudorandom order, and apply rate-limits to their outgoing packets.  This ensures the bootstrapping load is spread evenly throughout the cluster.  Even the busiest servers can generally handle one or two additional UDP packets.
+Instead, Wetware hosts iterate through the subnet in pseudorandom order, ensuring that bootstrap packets are spread evenly across the cluster.  Even under critical load, the busiest servers can generally handle an additional UDP packet or two.
 
-Wetware's bootstrap protocol is an integral part of its reliability, and there are a actually a lot of interesting subtleties.  Maybe I'll blog about it soon.
+There's actually quite a bit more to Wetware's bootstrap procedure, but that's a topic for another post.  I think that's enough for a first post.  Hello, world!
