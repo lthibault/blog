@@ -7,4 +7,4 @@ build: clean
 
 
 deploy: build
-	@rsync -avz --delete public/ lthibau.lt:/home/lthibault/www/lthibau.lt/
+	@rsync -avz --delete public/ root@lthibau.lt:/var/www/html/lthibau.lt/
